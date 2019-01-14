@@ -1,12 +1,14 @@
 # React-project
 ## 手动搭建环境
-> npm init --- 创建package.json文件
++ npm init --- 创建package.json文件
 
-> 创建文件index.html, App.jsx, index.js,webpack.config.js
++ 创建文件index.html, App.jsx, index.js,webpack.config.js
 
-ps: 注意需要依赖的插件： webpack，wbpack-cli, @babel/preset-env, @babel-core, babel-loader, @babel/preset-react
-就可以启动一个未包含css的react工程了，
-css样式需要依赖的插件： style-loader, css-loader
+PS: 
+1. 注意需要依赖的插件： webpack，wbpack-cli, @babel/preset-env, @babel-core, babel-loader, @babel/preset-react
+就可以启动一个未包含css的react工程了
+2. css样式需要依赖的插件： style-loader, css-loader
+
 webpack.config.js配置如下：
 `
 const path = require('path')
