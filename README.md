@@ -54,6 +54,8 @@ module.exports = {
 ## 利用脚手架搭建
 `
 $ npm init react-app my-app
+
 $ cd my-app
+
 $ npm start
 `
