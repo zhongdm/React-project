@@ -10,7 +10,7 @@ PS:
 2. css样式需要依赖的插件： style-loader, css-loader
 
 webpack.config.js配置如下：
-`
+```
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
@@ -50,12 +50,12 @@ module.exports = {
   mode: 'development'
   
 }
-`
+```
 ## 利用脚手架搭建
-`
+```
 $ npm init react-app my-app
 
 $ cd my-app
 
 $ npm start
-`
+```
