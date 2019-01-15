@@ -59,3 +59,15 @@ $ cd my-app
 
 $ npm start
 ```
+
+### React.js
++ bind(this)
++ **props** and **state**
++ events
++ JSX
++ forms
++ conditional rendering
++ lists and keys
++ **生命周期**
+componentDidMount --- react dom 已经渲染
+componentWillUnMount
