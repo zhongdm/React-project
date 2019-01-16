@@ -81,3 +81,4 @@ $ npm start
 componentDidMount --- react dom 已经渲染
 componentWillUnMount
 componentDidUpdate 
+shouldComponentUpdate
