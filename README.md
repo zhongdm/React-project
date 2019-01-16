@@ -68,6 +68,16 @@ $ npm start
 + forms
 + conditional rendering
 + lists and keys
+
+### 高级属性
++ prop-types
++ 静态类型检查 flow、 typescript
++ refs (不得已的情况下使用)， 
+  **只能获取组件实例，而不能获取dom节点**， **在函数式组件上失效**
+  + React.createRef(), current属性
+  
+  
 + **生命周期**
 componentDidMount --- react dom 已经渲染
 componentWillUnMount
+componentDidUpdate 
