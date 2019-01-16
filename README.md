@@ -78,7 +78,9 @@ $ npm start
   
   
 + **生命周期**
+componentWillMount
 componentDidMount --- react dom 已经渲染
 componentWillUnMount
 componentDidUpdate 
 shouldComponentUpdate
+componentWillReceiveProps
