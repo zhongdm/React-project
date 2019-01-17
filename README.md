@@ -84,3 +84,4 @@ componentWillUnMount
 componentDidUpdate 
 shouldComponentUpdate
 componentWillReceiveProps
+componentDidCatch
