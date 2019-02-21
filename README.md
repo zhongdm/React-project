@@ -75,7 +75,19 @@ $ npm start
 + refs (不得已的情况下使用)， 
   **只能获取组件实例，而不能获取dom节点**， **在函数式组件上失效**
   + React.createRef(), current属性
-  
+ 
+### 插件
++ 错误信息中显示文件名和行号
+ ```
+ $ npm install --save-dev babel-plugin-transform-react-jsx-source
+Usage
+ ```
+ - .babelrc
+   ```
+   {
+  "plugins": ["transform-react-jsx-source"]
+}
+```
   
 + **生命周期**
 componentWillMount
