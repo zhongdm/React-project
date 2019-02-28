@@ -100,4 +100,4 @@ componentDidCatch
 
 
 ### 相关资料
-+ redux学习视频[https://egghead.io/lessons/react-redux-describing-state-changes-with-actions]
++ [redux学习视频](https://egghead.io/lessons/react-redux-describing-state-changes-with-actions)
